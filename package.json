@@ -12,6 +12,7 @@
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "dotenv": "^16.4.5",
     "hardhat": "^2.22.3",
-    "openzeppelin-solidity": "^4.8.1"
+    "openzeppelin-solidity": "^4.8.1",
+    "web3": "^1.10.4"
   }
 }
