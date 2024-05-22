@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network",
+    "test": "hardhat test",
+    "verify": "hardhat verify --network"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
     "dotenv": "^16.4.5",
     "hardhat": "^2.22.3",
     "openzeppelin-solidity": "^4.8.1",
