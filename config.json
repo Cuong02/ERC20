@@ -2,7 +2,9 @@
   "dev": {},
   "bsctest": {
     "Floppy": "0x81F388a3A0d1A7b40689DfA5e8856FC4A85ded58",
-    "Vault": "0x297Ec1e1f512B14615BF9Fac9886f271aC78d8c9"
+    "Vault": "0x297Ec1e1f512B14615BF9Fac9886f271aC78d8c9",
+    "USDT": "0x04E0774e598E601348e77eF5D1165fefcA858113",
+    "ico": "0xdF025496080f4C23098641C602E979B1f5C01f60"
   },
   "main": {}
 }
