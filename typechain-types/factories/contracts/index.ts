@@ -2,6 +2,10 @@
 /* tslint:disable */
 /* eslint-disable */
 export * as fldCrowndsaleSol from "./FLDCrowndsale.sol";
+export * as heroSol from "./Hero.sol";
+export { Auction__factory } from "./Auction__factory";
 export { Floppy__factory } from "./Floppy__factory";
+export { HeroMarketplace__factory } from "./HeroMarketplace__factory";
+export { IPT__factory } from "./IPT__factory";
 export { USDT__factory } from "./USDT__factory";
 export { Vault__factory } from "./Vault__factory";

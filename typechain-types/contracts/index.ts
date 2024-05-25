@@ -3,6 +3,11 @@
 /* eslint-disable */
 import type * as fldCrowndsaleSol from "./FLDCrowndsale.sol";
 export type { fldCrowndsaleSol };
+import type * as heroSol from "./Hero.sol";
+export type { heroSol };
+export type { Auction } from "./Auction";
 export type { Floppy } from "./Floppy";
+export type { HeroMarketplace } from "./HeroMarketplace";
+export type { IPT } from "./IPT";
 export type { USDT } from "./USDT";
 export type { Vault } from "./Vault";

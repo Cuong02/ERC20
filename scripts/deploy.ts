@@ -18,15 +18,15 @@ async function main() {
     // console.log('Floppy address: ', vault.address);
     // Config.setConfig(network + '.Vault', vault.address);
     
-    // const Floppy = await ethers.getContractFactory("USDT");
-    // const floppy = await Floppy.deploy();
-    // console.log('USDT address: ', floppy.address);
-    // Config.setConfig(network + '.USDT', floppy.address);
+    const Floppy = await ethers.getContractFactory("IPT");
+    const floppy = await Floppy.deploy();
+    console.log('IPT address: ', floppy.address);
+    Config.setConfig(network + '.IPT', floppy.address);
 
-    const Ico = await ethers.getContractFactory("FLPCrowdSale");
-    const ico = await Ico.deploy(1000,100,'0xb5F60142e7c6BfDdda4734953C1bCe1CD12f2B06', '0x81F388a3A0d1A7b40689DfA5e8856FC4A85ded58');
-    console.log('ICO address: ', ico.address);
-    Config.setConfig(network + '.ico', ico.address);
+    // const Ico = await ethers.getContractFactory("FLPCrowdSale");
+    // const ico = await Ico.deploy(1000,100,'0xb5F60142e7c6BfDdda4734953C1bCe1CD12f2B06', '0x81F388a3A0d1A7b40689DfA5e8856FC4A85ded58');
+    // console.log('ICO address: ', ico.address);
+    // Config.setConfig(network + '.ico', ico.address);
 
     
     // const Hero = await ethers.getContractFactory("Hero");
@@ -36,11 +36,11 @@ async function main() {
 
 
     // const MKP = await ethers.getContractFactory("HeroMarketplace");
-    // const heroMarketplace = await MKP.deploy("0x65f00a282A58B30f8376D41832d76CeCB7b6186C", "0xd54D6d5BD983a6cA18F8820f80E0A970FE4A9a8c");
+    // const heroMarketplace = await MKP.deploy("0x4fEf3339E859D2a7394C4f6efe1A9F8220fc12b2", "0x81F388a3A0d1A7b40689DfA5e8856FC4A85ded58");
     // console.log('Market deployed at: ', heroMarketplace.address);
     
     // const Auction = await ethers.getContractFactory("Auction");
-    // const auction = await Auction.deploy("0xE4E78c6C20e88e0eAC73462D336Fc161Da052a76", "0xb5F60142e7c6BfDdda4734953C1bCe1CD12f2B06");
+    // const auction = await Auction.deploy("0x81F388a3A0d1A7b40689DfA5e8856FC4A85ded58", "0x4fEf3339E859D2a7394C4f6efe1A9F8220fc12b2");
     // console.log('Market deployed at: ', auction.address);
     // Config.setConfig(network + '.Auction', auction.address);
 
