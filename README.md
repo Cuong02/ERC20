@@ -13,11 +13,7 @@ to run the app
 
 ### Deploy contract in folder /contracts https://remix.ethereum.org/
 
-### Change variables in file .env and variable abi in file index.js
-
-then
-
-`node index.js`
+### Change variables in file .env and variable abi
 
 ## Preview
 
